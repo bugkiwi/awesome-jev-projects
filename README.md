@@ -9,7 +9,7 @@
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://logicrw.github.io/awesome-jev-projects/"><img src="https://img.shields.io/badge/Live%20Radar-logicrw.github.io-059669?style=flat-square&logo=safari" alt="Live Radar" /></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-259%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-260%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a.svg?style=flat-square" alt="PRs Welcome" /></a>
 </p>
@@ -28,7 +28,7 @@
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><strong>📝 Submit a Project</strong></a>
 </p>
 
-<p>A source-verified, zero-hype directory of **259+** open-source applications, tools, and benchmarks built with TypeSafe AI's Jev model.</p>
+<p>A source-verified, zero-hype directory of **260+** open-source applications, tools, and benchmarks built with TypeSafe AI's Jev model.</p>
 
 </div>
 
@@ -56,7 +56,7 @@
 - [🧭 Codebase Analysis & Knowledge Graphs (13)](#codebase-graph-pathfinding-en)
 - [🔀 Model Routing & Cost Reduction (16)](#routing-cost-optimization-en)
 - [📊 Domain-Specific & Enterprise Tools (17)](#domain-vertical-tools-en)
-- [🎯 General Decision & Evaluation Tools (14)](#decision-tools-en)
+- [🎯 General Decision & Evaluation Tools (15)](#decision-tools-en)
 - [🏷️ Text Classification & Taxonomy (1)](#classification-taxonomy-en)
 - [📈 Benchmarks & Observability (7)](#evaluation-observability-en)
 - [🎙️ Voice & Real-Time Conversation (4)](#voice-conversation-en)
@@ -1120,6 +1120,10 @@
 - [**goodall**](https://github.com/bensyverson/goodall) - Simple and extensible agent loop for Go projects integrating TypeSafe Jev for decision branches.
   - 🎯 **What Jev Decides**: Evaluates environmental observations each turn to decide the next local tool to call or finish the loop.
   - 💡 **Key Advantage**: Extremely clean codebase providing a lightweight, testable baseline for autonomous Go agents.
+
+- [**turing-jail**](https://github.com/bugkiwi/turing-jail) - Interactive three-level AI interrogation game powered by TypeSafe Jev; write responses and pass plea, logic, and paradox verdicts to earn release.
+  - 🎯 **What Jev Decides**: For each level, Jev evaluates release probability plus plea, logic, and paradox signals, then selects a persuasion tactic and scores persuasiveness.
+  - 💡 **Key Advantage**: Turns structured Jev judgments into playable feedback, pass thresholds, and leaderboard results that show how arguments affect release probability.
 
 ---
 
