@@ -16005,4 +16005,82 @@
     },
     "pinned": false
   }
+  ,{
+    "id": "bugkiwi:turing-jail",
+    "pinned": false,
+    "name": "turing-jail",
+    "author": "bugkiwi",
+    "url": "https://github.com/bugkiwi/turing-jail",
+    "category": "Decision Tools",
+    "plainSummary": "由 TypeSafe Jev System One 驱动的三关 AI 审讯游戏：通过求情、逻辑与悖论测试，争取获得释放。",
+    "plainSummaryEn": "Interactive three-level AI interrogation game powered by TypeSafe Jev; write responses and pass plea, logic, and paradox verdicts to earn release.",
+    "jevDecisionPoint": "每一关评估 prisoner_response 的释放概率、求情、逻辑与悖论信号，同时用 Choice 识别说服策略、用 Score 评估说服力。",
+    "jevDecisionPointEn": "For each level, Jev evaluates release probability plus plea, logic, and paradox signals, then selects a persuasion tactic and scores persuasiveness.",
+    "highlightBenefit": "把结构化 Jev 判断变成可玩的反馈、门槛和排行榜结果，让用户直观看见不同论证如何影响释放概率。",
+    "highlightBenefitEn": "Turns structured Jev judgments into playable feedback, pass thresholds, and leaderboard results that show how arguments affect release probability.",
+    "claimStatus": "开源 TypeScript Web 游戏，支持中文、英文和德文，并将每次完成的三关结果保存为可分享记录。",
+    "claimStatusEn": "Open-source TypeScript web game supporting Chinese, English, and German, with shareable records for completed three-level runs.",
+    "tags": [
+      "Game",
+      "TypeScript",
+      "Choice",
+      "Score",
+      "Noul"
+    ],
+    "evidenceNote": "server.ts 固定于 629ff1b，直连 Jev System One，并提交 noul、score、choice 三类问题；本站未独立复测运行或性能。",
+    "metricLabel": "3 levels",
+    "metricContext": "Plea · Logic · Paradox",
+    "repo": "bugkiwi/turing-jail",
+    "repoId": 1374144235,
+    "stars": 0,
+    "forks": 0,
+    "openIssues": 0,
+    "license": null,
+    "createdAt": "2026-09-17T08:23:53Z",
+    "updatedAt": "2026-09-18T03:19:24Z",
+    "pushedAt": "2026-09-18T03:19:20Z",
+    "lastCommitAt": "2026-09-18T03:18:57Z",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1936250?v=4",
+    "language": "TypeScript",
+    "topics": [],
+    "archived": false,
+    "headSha": "629ff1b5617800d851811ce4379845f5ac59f729",
+    "sourceUrl": "https://github.com/bugkiwi/turing-jail/blob/629ff1b5617800d851811ce4379845f5ac59f729/server.ts#L91-L123",
+    "sourcePath": "server.ts",
+    "evidenceLines": "L91-L123",
+    "verificationStatus": "verified",
+    "runtimeVerified": false,
+    "metadataStatus": "ok",
+    "summarySource": "human-reviewed",
+    "metadataFetchedAt": "2026-09-19T06:19:16Z",
+    "claimStatusEn": "Source-reviewed integration record; runtime behavior and performance were not independently retested by this site.",
+    "evidence": [
+      {
+        "url": "https://github.com/bugkiwi/turing-jail/blob/629ff1b5617800d851811ce4379845f5ac59f729/README.md",
+        "note": "固定版本的项目说明"
+      },
+      {
+        "url": "https://github.com/bugkiwi/turing-jail/blob/629ff1b5617800d851811ce4379845f5ac59f729/server.ts#L91-L123",
+        "note": "固定版本的 Jev 集成与源码实现"
+      }
+    ],
+    "sourceVerification": {
+      "method": "human-source-review",
+      "sha": "629ff1b5617800d851811ce4379845f5ac59f729",
+      "files": [
+        {
+          "path": "README.md",
+          "url": "https://github.com/bugkiwi/turing-jail/blob/629ff1b5617800d851811ce4379845f5ac59f729/README.md",
+          "hash": "f665215b3117429d80499c57989a9cb58f3d593c",
+          "hashType": "git-blob-sha1"
+        },
+        {
+          "path": "server.ts",
+          "url": "https://github.com/bugkiwi/turing-jail/blob/629ff1b5617800d851ce4379845f5ac59f729/server.ts",
+          "hash": "21b84d3af0e85c320e451c7ed29af900549078de",
+          "hashType": "git-blob-sha1"
+        }
+      ]
+    }
+  }
 ]
