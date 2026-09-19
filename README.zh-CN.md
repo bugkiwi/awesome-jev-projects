@@ -9,7 +9,7 @@
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://logicrw.github.io/awesome-jev-projects/"><img src="https://img.shields.io/badge/Live%20Radar-logicrw.github.io-059669?style=flat-square&logo=safari" alt="Live Radar" /></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-259%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-260%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a.svg?style=flat-square" alt="PRs Welcome" /></a>
 </p>
@@ -28,7 +28,7 @@
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><strong>📝 提交开源项目</strong></a>
 </p>
 
-<p>严谨收录 **259+** 个由 TypeSafe AI Jev 模型驱动的真实开源应用、工程工具与评测基准。拒绝无源码概念炒作，每项均绑定可查验的提交版本。</p>
+<p>严谨收录 **260+** 个由 TypeSafe AI Jev 模型驱动的真实开源应用、工程工具与评测基准。拒绝无源码概念炒作，每项均绑定可查验的提交版本。</p>
 
 </div>
 
@@ -56,7 +56,7 @@
 - [🧭 代码库分析与图谱寻路 (13)](#codebase-graph-pathfinding-zh)
 - [🔀 模型路由与成本优化 (16)](#routing-cost-optimization-zh)
 - [📊 垂直行业与专业业务系统 (17)](#domain-vertical-tools-zh)
-- [🎯 通用决策与启发式评估 (14)](#decision-tools-zh)
+- [🎯 通用决策与启发式评估 (15)](#decision-tools-zh)
 - [🏷️ 文本分类与分类学标注 (1)](#classification-taxonomy-zh)
 - [📈 评测基准与系统可观测性 (7)](#evaluation-observability-zh)
 - [🎙️ 实时语音与多轮对话 (4)](#voice-conversation-zh)
@@ -1120,6 +1120,10 @@
 - [**goodall**](https://github.com/bensyverson/goodall) - Go 语言简单可扩展的智能体循环：集成 TypeSafe 客户端作为离散决策分支内核。
   - 🎯 **核心决策**: 在每轮智能体循环中评估上下文观察结果，裁决下一步调用哪个本地 Go 工具或结束循环。
   - 💡 **收益亮点**: 代码结构极度清晰，为 Go 开发者构建自主智能体提供了一个轻便、易测的基准架构。
+
+- [**turing-jail**](https://github.com/bugkiwi/turing-jail) - 由 TypeSafe Jev System One 驱动的三关 AI 审讯游戏：通过求情、逻辑与悖论测试，争取获得释放。
+  - 🎯 **核心决策**: 每一关评估 prisoner_response 的释放概率、求情、逻辑与悖论信号，同时用 Choice 识别说服策略、用 Score 评估说服力。
+  - 💡 **收益亮点**: 把结构化 Jev 判断变成可玩的反馈、门槛和排行榜结果，让用户直观看见不同论证如何影响释放概率。
 
 ---
 
