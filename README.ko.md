@@ -9,7 +9,7 @@
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://logicrw.github.io/awesome-jev-projects/"><img src="https://img.shields.io/badge/Live%20Radar-logicrw.github.io-059669?style=flat-square&logo=safari" alt="Live Radar" /></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-259%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-260%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a.svg?style=flat-square" alt="PRs Welcome" /></a>
 </p>
@@ -28,7 +28,7 @@
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><strong>📝 프로젝트 등록 신청</strong></a>
 </p>
 
-<p>TypeSafe AI의 Jev 모델을 탑재한 **259+** 개의 검증된 오픈소스 도구, 프로덕션 앱 및 벤치마크 모음. 모든 프로젝트는 실제 소스 코드가 검증되었습니다.</p>
+<p>TypeSafe AI의 Jev 모델을 탑재한 **260+** 개의 검증된 오픈소스 도구, 프로덕션 앱 및 벤치마크 모음. 모든 프로젝트는 실제 소스 코드가 검증되었습니다.</p>
 
 </div>
 
@@ -56,7 +56,7 @@
 - [🧭 코드베이스 분석 및 지식 그래프 탐색 (13)](#codebase-graph-pathfinding-ko)
 - [🔀 모델 라우팅 및 비용 최적화 (16)](#routing-cost-optimization-ko)
 - [📊 도메인 특화 및 엔터프라이즈 도구 (17)](#domain-vertical-tools-ko)
-- [🎯 범용 의사결정 및 휴리스틱 평가 (14)](#decision-tools-ko)
+- [🎯 범용 의사결정 및 휴리스틱 평가 (15)](#decision-tools-ko)
 - [🏷️ 텍스트 분류 및 분류 체계 (1)](#classification-taxonomy-ko)
 - [📈 벤치마크 및 가관측성 (7)](#evaluation-observability-ko)
 - [🎙️ 음성 인터랙션 및 실시간 대화 (4)](#voice-conversation-ko)
@@ -1120,6 +1120,10 @@
 - [**goodall**](https://github.com/bensyverson/goodall) - Simple and extensible agent loop for Go projects integrating TypeSafe Jev for decision branches.
   - 🎯 **Jev의 역할**: 각 턴마다 환경 관측 데이터를 평가하여 다음에 호출할 로컬 도구를 선택하거나 루프를 종료.
   - 💡 **핵심 장점**: 매우 간결한 코드베이스로 Go 언어 기반 자율 에이전트 구축을 위한 테스트 가능한 기준을 제공.
+
+- [**turing-jail**](https://github.com/bugkiwi/turing-jail) - Interactive three-level AI interrogation game powered by TypeSafe Jev; write responses and pass plea, logic, and paradox verdicts to earn release.
+  - 🎯 **Jev의 역할**: For each level, Jev evaluates release probability plus plea, logic, and paradox signals, then selects a persuasion tactic and scores persuasiveness.
+  - 💡 **핵심 장점**: Turns structured Jev judgments into playable feedback, pass thresholds, and leaderboard results that show how arguments affect release probability.
 
 ---
 
