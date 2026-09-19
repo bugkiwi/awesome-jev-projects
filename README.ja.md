@@ -9,7 +9,7 @@
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://logicrw.github.io/awesome-jev-projects/"><img src="https://img.shields.io/badge/Live%20Radar-logicrw.github.io-059669?style=flat-square&logo=safari" alt="Live Radar" /></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-259%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-260%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a.svg?style=flat-square" alt="PRs Welcome" /></a>
 </p>
@@ -28,7 +28,7 @@
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><strong>📝 プロジェクトを申請</strong></a>
 </p>
 
-<p>TypeSafe AIのJevモデルを採用した **259+** 件のオープンソースツール、実用アプリ、検証プロジェクトを網羅。ソースコード検証済み。</p>
+<p>TypeSafe AIのJevモデルを採用した **260+** 件のオープンソースツール、実用アプリ、検証プロジェクトを網羅。ソースコード検証済み。</p>
 
 </div>
 
@@ -56,7 +56,7 @@
 - [🧭 コードベース解析・グラフ探索 (13)](#codebase-graph-pathfinding-ja)
 - [🔀 モデルルーティング・コスト最適化 (16)](#routing-cost-optimization-ja)
 - [📊 専門分野・バーティカルツール (17)](#domain-vertical-tools-ja)
-- [🎯 意思決定支援・ヒューリスティック評価 (14)](#decision-tools-ja)
+- [🎯 意思決定支援・ヒューリスティック評価 (15)](#decision-tools-ja)
 - [🏷️ テキスト分類・タキソノミー (1)](#classification-taxonomy-ja)
 - [📈 ベンチマーク・可観測性 (7)](#evaluation-observability-ja)
 - [🎙️ 音声対話・リアルタイム会話 (4)](#voice-conversation-ja)
@@ -1120,6 +1120,10 @@
 - [**goodall**](https://github.com/bensyverson/goodall) - Simple and extensible agent loop for Go projects integrating TypeSafe Jev for decision branches.
   - 🎯 **Jevの判断箇所**: 各ターンで環境の観測結果を評価し、次に呼び出すローカルツールまたは終了を判定。
   - 💡 **主な特徴**: 極めて簡潔なコードベースで、Goによる自律エージェント構築のための軽量な基準設計を提供。
+
+- [**turing-jail**](https://github.com/bugkiwi/turing-jail) - Interactive three-level AI interrogation game powered by TypeSafe Jev; write responses and pass plea, logic, and paradox verdicts to earn release.
+  - 🎯 **Jevの判断箇所**: For each level, Jev evaluates release probability plus plea, logic, and paradox signals, then selects a persuasion tactic and scores persuasiveness.
+  - 💡 **主な特徴**: Turns structured Jev judgments into playable feedback, pass thresholds, and leaderboard results that show how arguments affect release probability.
 
 ---
 
