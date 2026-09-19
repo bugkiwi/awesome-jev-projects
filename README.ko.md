@@ -9,7 +9,7 @@
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://logicrw.github.io/awesome-jev-projects/"><img src="https://img.shields.io/badge/Live%20Radar-logicrw.github.io-059669?style=flat-square&logo=safari" alt="Live Radar" /></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-259%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-260%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a.svg?style=flat-square" alt="PRs Welcome" /></a>
 </p>
@@ -27,7 +27,7 @@
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><strong>📝 프로젝트 등록 신청</strong></a>
 </p>
 
-<p>TypeSafe AI의 Jev 모델을 탑재한 **259+** 개의 검증된 오픈소스 도구, 프로덕션 앱 및 벤치마크 모음. 모든 프로젝트는 실제 소스 코드가 검증되었습니다.</p>
+<p>TypeSafe AI의 Jev 모델을 탑재한 **260+** 개의 검증된 오픈소스 도구, 프로덕션 앱 및 벤치마크 모음. 모든 프로젝트는 실제 소스 코드가 검증되었습니다.</p>
 
 </div>
 
@@ -47,7 +47,7 @@
 - [💻 CLI 및 자동화 파이프라인 (32)](#cli-pipelines-ko)
 - [💾 데이터베이스 확장 및 시맨틱 검색 (7)](#data-search-ko)
 - [🌐 브라우저 및 데스크톱 자동화 (23)](#browser-os-action-ko)
-- [🧹 컨텍스트 압축 및 가비지 컬렉션 (11)](#context-gc-filter-ko)
+- [🧹 컨텍스트 압축 및 가비지 컬렉션 (12)](#context-gc-filter-ko)
 - [🛡️ 보안 및 가드레일 (16)](#security-guardrails-ko)
 - [🧩 MCP 프로토콜 및 도구 확장 (32)](#mcp-integrations-ko)
 - [🧭 코드베이스 분석 및 지식 그래프 탐색 (12)](#codebase-graph-pathfinding-ko)
@@ -635,6 +635,10 @@
 - [**pi-jev-context**](https://github.com/kevinpita/pi-jev-context) `★ 2` - Reversible context pruning for Pi powered by Jev, keeping useful context without deleting history.
   - 🎯 **Jev의 역할**: 도구 실행 결과와 대화 내용을 검사하여 유지, 접기 또는 원문 포인터 대체 여부를 결정.
   - 💡 **핵심 장점**: 프롬프트의 간결성을 확보하면서도 원본 이력을 손실 없이 보존하는 완전 가역적 설계를 구현.
+
+- [**elons-job**](https://github.com/bugkiwi/elons-job) `★ 1` - Local-first Chrome extension that uses Jev to filter sexual and solicitation content in X replies with reversible hidden placeholders.
+  - 🎯 **Jev의 역할**: Scores X reply text with Jev Noul questions for sexual content, solicitation, and spam, then combines probabilities with local thresholds and structural signals.
+  - 💡 **핵심 장점**: Combines local rules, caching, concurrency and cost controls, and fail-open handling; it requires no X API and keeps hidden comments recoverable.
 
 - [**jev-context**](https://github.com/zbush/jev-context) `★ 1` - jev-context: Prunes extraneous tool outputs, logs, and grep results before feeding LLM context.
   - 🎯 **Jev의 역할**: 현재 작업 목표와의 연관성을 라인 단위로 판단하여 불필요한 토큰 노이즈를 제거.

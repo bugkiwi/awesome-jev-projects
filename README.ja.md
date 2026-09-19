@@ -9,7 +9,7 @@
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://logicrw.github.io/awesome-jev-projects/"><img src="https://img.shields.io/badge/Live%20Radar-logicrw.github.io-059669?style=flat-square&logo=safari" alt="Live Radar" /></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-259%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-260%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a.svg?style=flat-square" alt="PRs Welcome" /></a>
 </p>
@@ -27,7 +27,7 @@
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><strong>📝 プロジェクトを申請</strong></a>
 </p>
 
-<p>TypeSafe AIのJevモデルを採用した **259+** 件のオープンソースツール、実用アプリ、検証プロジェクトを網羅。ソースコード検証済み。</p>
+<p>TypeSafe AIのJevモデルを採用した **260+** 件のオープンソースツール、実用アプリ、検証プロジェクトを網羅。ソースコード検証済み。</p>
 
 </div>
 
@@ -47,7 +47,7 @@
 - [💻 CLI・自動化パイプライン (32)](#cli-pipelines-ja)
 - [💾 データベース拡張・セマンティック検索 (7)](#data-search-ja)
 - [🌐 ブラウザ・デスクトップ自動化 (23)](#browser-os-action-ja)
-- [🧹 コンテキスト圧縮・ノイズ除去 (11)](#context-gc-filter-ja)
+- [🧹 コンテキスト圧縮・ノイズ除去 (12)](#context-gc-filter-ja)
 - [🛡️ セキュリティ・ガードレール (16)](#security-guardrails-ja)
 - [🧩 MCP プロトコル・ツール拡張 (32)](#mcp-integrations-ja)
 - [🧭 コードベース解析・グラフ探索 (12)](#codebase-graph-pathfinding-ja)
@@ -635,6 +635,10 @@
 - [**pi-jev-context**](https://github.com/kevinpita/pi-jev-context) `★ 2` - Reversible context pruning for Pi powered by Jev, keeping useful context without deleting history.
   - 🎯 **Jevの判断箇所**: ツール実行結果と対話を検査し、保持・折りたたみ・参照ポインタへの置き換えを決定。
   - 💡 **主な特徴**: プロンプトの簡潔さを維持しながら元の履歴を保持する完全可逆設計を実現。
+
+- [**elons-job**](https://github.com/bugkiwi/elons-job) `★ 1` - Local-first Chrome extension that uses Jev to filter sexual and solicitation content in X replies with reversible hidden placeholders.
+  - 🎯 **Jevの判断箇所**: Scores X reply text with Jev Noul questions for sexual content, solicitation, and spam, then combines probabilities with local thresholds and structural signals.
+  - 💡 **主な特徴**: Combines local rules, caching, concurrency and cost controls, and fail-open handling; it requires no X API and keeps hidden comments recoverable.
 
 - [**jev-context**](https://github.com/zbush/jev-context) `★ 1` - jev-context: Prunes extraneous tool outputs, logs, and grep results before feeding LLM context.
   - 🎯 **Jevの判断箇所**: 現在のタスク目標に対する関連性を1行ずつ判定し、冗長なトークンノイズを破棄。

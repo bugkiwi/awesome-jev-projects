@@ -9,7 +9,7 @@
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://logicrw.github.io/awesome-jev-projects/"><img src="https://img.shields.io/badge/Live%20Radar-logicrw.github.io-059669?style=flat-square&logo=safari" alt="Live Radar" /></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-259%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-260%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a.svg?style=flat-square" alt="PRs Welcome" /></a>
 </p>
@@ -27,7 +27,7 @@
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><strong>📝 Submit a Project</strong></a>
 </p>
 
-<p>A source-verified, zero-hype directory of **259+** open-source applications, tools, and benchmarks built with TypeSafe AI's Jev model.</p>
+<p>A source-verified, zero-hype directory of **260+** open-source applications, tools, and benchmarks built with TypeSafe AI's Jev model.</p>
 
 </div>
 
@@ -47,7 +47,7 @@
 - [💻 CLI & Pipelines (32)](#cli-pipelines-en)
 - [💾 Data & Search (7)](#data-search-en)
 - [🌐 Browser & Desktop Automation (23)](#browser-os-action-en)
-- [🧹 Context GC & Noise Filtering (11)](#context-gc-filter-en)
+- [🧹 Context GC & Noise Filtering (12)](#context-gc-filter-en)
 - [🛡️ Security & Guardrails (16)](#security-guardrails-en)
 - [🧩 MCP Protocols & Tool Endpoints (32)](#mcp-integrations-en)
 - [🧭 Codebase Analysis & Knowledge Graphs (12)](#codebase-graph-pathfinding-en)
@@ -635,6 +635,10 @@
 - [**pi-jev-context**](https://github.com/kevinpita/pi-jev-context) `★ 2` - Reversible context pruning for Pi powered by Jev, keeping useful context without deleting history.
   - 🎯 **What Jev Decides**: Inspects tool results and conversational turns to decide whether to retain, fold, or point to full history.
   - 💡 **Key Advantage**: Fully reversible design ensuring prompt compactness while preserving complete underlying history.
+
+- [**elons-job**](https://github.com/bugkiwi/elons-job) `★ 1` - Local-first Chrome extension that uses Jev to filter sexual and solicitation content in X replies with reversible hidden placeholders.
+  - 🎯 **What Jev Decides**: Scores X reply text with Jev Noul questions for sexual content, solicitation, and spam, then combines probabilities with local thresholds and structural signals.
+  - 💡 **Key Advantage**: Combines local rules, caching, concurrency and cost controls, and fail-open handling; it requires no X API and keeps hidden comments recoverable.
 
 - [**jev-context**](https://github.com/zbush/jev-context) `★ 1` - jev-context: Prunes extraneous tool outputs, logs, and grep results before feeding LLM context.
   - 🎯 **What Jev Decides**: Judges line-by-line relevance against current task goals to discard token noise.

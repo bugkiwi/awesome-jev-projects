@@ -15825,5 +15825,83 @@
         }
       ]
     }
+  },
+  {
+    "id": "bugkiwi:elons-job",
+    "pinned": false,
+    "name": "elons-job",
+    "author": "bugkiwi",
+    "url": "https://github.com/bugkiwi/elons-job",
+    "category": "Context GC & Filter",
+    "plainSummary": "本地优先的 Chrome 扩展：先用规则筛选 X 回复，再让 Jev 判断色情、性暗示和引流内容，并提供可恢复的隐藏占位符。",
+    "plainSummaryEn": "Local-first Chrome extension that uses Jev to filter sexual and solicitation content in X replies with reversible hidden placeholders.",
+    "jevDecisionPoint": "将 X 详情页回复编译为 Jev Noul 判断问题，由本地阈值、规则和重复模板信号共同决定是否隐藏。",
+    "jevDecisionPointEn": "Scores X reply text with Jev Noul questions for sexual content, solicitation, and spam, then combines probabilities with local thresholds and structural signals.",
+    "highlightBenefit": "结合本地规则、缓存、并发与成本保护以及 Fail-Open 设计；不需要 X 官方 API，隐藏内容可以恢复。",
+    "highlightBenefitEn": "Combines local rules, caching, concurrency and cost controls, and fail-open handling; it requires no X API and keeps hidden comments recoverable.",
+    "claimStatus": "README 与源码展示 TypeSafe System One 接入及确定性 mock 测试；本站未独立运行或复测。",
+    "claimStatusEn": "The README and source show TypeSafe System One integration and deterministic mock tests; not independently run or performance-tested by this site.",
+    "tags": [
+      "Chrome Extension",
+      "X/Twitter",
+      "Content Moderation",
+      "Browser Extension",
+      "Privacy"
+    ],
+    "evidenceNote": "src/background.js 与 src/shared/core.js 固定于 be01f86，分别实现 TypeSafe System One 客户端和 Jev Noul 规则编译/判定。",
+    "metricLabel": "Reply Filter",
+    "metricContext": "X 回复内容治理",
+    "repo": "bugkiwi/elons-job",
+    "repoId": 1375432241,
+    "stars": 1,
+    "forks": 0,
+    "openIssues": 0,
+    "license": null,
+    "createdAt": "2026-09-18T05:46:42Z",
+    "pushedAt": "2026-09-19T03:55:14Z",
+    "lastCommitAt": "2026-09-19T03:54:42Z",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/1936250?v=4",
+    "language": "JavaScript",
+    "topics": [],
+    "archived": false,
+    "headSha": "be01f869871fcda5841fb77df3df6e46abbda493",
+    "sourceUrl": "https://github.com/bugkiwi/elons-job/blob/be01f869871fcda5841fb77df3df6e46abbda493/src/background.js#L46-L101",
+    "sourcePath": "src/background.js",
+    "evidenceLines": "L46-L101",
+    "verificationStatus": "source-verified",
+    "runtimeVerified": false,
+    "metadataStatus": "ok",
+    "summarySource": "source-reviewed",
+    "metadataFetchedAt": "2026-09-19T06:23:18Z",
+    "evidence": [
+      {
+        "url": "https://github.com/bugkiwi/elons-job/blob/be01f869871fcda5841fb77df3df6e46abbda493/README.md",
+        "note": "固定版本的 Jev 集成与项目说明"
+      },
+      {
+        "url": "https://github.com/bugkiwi/elons-job/blob/be01f869871fcda5841fb77df3df6e46abbda493/src/background.js#L46-L101",
+        "note": "TypeSafe System One 客户端与 Noul 请求实现"
+      },
+      {
+        "url": "https://github.com/bugkiwi/elons-job/blob/be01f869871fcda5841fb77df3df6e46abbda493/src/shared/core.js#L220-L327",
+        "note": "Jev Noul 规则编译、概率解析与阈值判定"
+      }
+    ],
+    "sourceVerification": {
+      "method": "bounded-source-heuristic",
+      "sha": "be01f869871fcda5841fb77df3df6e46abbda493",
+      "files": [
+        {
+          "path": "src/background.js",
+          "url": "https://github.com/bugkiwi/elons-job/blob/be01f869871fcda5841fb77df3df6e46abbda493/src/background.js",
+          "hash": "e1756e2aa3178d8dfde59f48f87b962485c73cf6"
+        },
+        {
+          "path": "src/shared/core.js",
+          "url": "https://github.com/bugkiwi/elons-job/blob/be01f869871fcda5841fb77df3df6e46abbda493/src/shared/core.js",
+          "hash": "131e5c4ad4417b7659dfe403f9d31dab0fa842db"
+        }
+      ]
+    }
   }
 ]

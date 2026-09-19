@@ -9,7 +9,7 @@
 <p>
   <a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
   <a href="https://logicrw.github.io/awesome-jev-projects/"><img src="https://img.shields.io/badge/Live%20Radar-logicrw.github.io-059669?style=flat-square&logo=safari" alt="Live Radar" /></a>
-  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-259%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
+  <a href="#contents"><img src="https://img.shields.io/badge/Curated%20Projects-260%2B-2563eb?style=flat-square" alt="Projects Count" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-d97706.svg?style=flat-square" alt="License: MIT" /></a>
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><img src="https://img.shields.io/badge/PRs-Welcome-16a34a.svg?style=flat-square" alt="PRs Welcome" /></a>
 </p>
@@ -27,7 +27,7 @@
   <a href="https://github.com/logicrw/awesome-jev-projects/issues/new?template=project.yml"><strong>📝 提交开源项目</strong></a>
 </p>
 
-<p>严谨收录 **259+** 个由 TypeSafe AI Jev 模型驱动的真实开源应用、工程工具与评测基准。拒绝无源码概念炒作，每项均绑定可查验的提交版本。</p>
+<p>严谨收录 **260+** 个由 TypeSafe AI Jev 模型驱动的真实开源应用、工程工具与评测基准。拒绝无源码概念炒作，每项均绑定可查验的提交版本。</p>
 
 </div>
 
@@ -47,7 +47,7 @@
 - [💻 命令行工具与自动化工作流 (32)](#cli-pipelines-zh)
 - [💾 数据库扩展与语义检索 (7)](#data-search-zh)
 - [🌐 浏览器与桌面端自动化 (23)](#browser-os-action-zh)
-- [🧹 上下文垃圾回收与降噪 (11)](#context-gc-filter-zh)
+- [🧹 上下文垃圾回收与降噪 (12)](#context-gc-filter-zh)
 - [🛡️ 安全防御与输入护栏 (16)](#security-guardrails-zh)
 - [🧩 MCP 协议与工具扩展 (32)](#mcp-integrations-zh)
 - [🧭 代码库分析与图谱寻路 (12)](#codebase-graph-pathfinding-zh)
@@ -635,6 +635,10 @@
 - [**pi-jev-context**](https://github.com/kevinpita/pi-jev-context) `★ 2` - Pi 智能体可逆上下文修剪器：基于 Jev 语义判定，在不删除底层会话记录的前提下智能精简投喂给模型的上下文。
   - 🎯 **核心决策**: 逐条检查终端命令结果与历史回答，裁决该条目是否保留、折叠或在必要时由指针召回。
   - 💡 **收益亮点**: 完全可逆的设计，既保证了当前 Prompt 的精炼度，又确保在需要追溯历史时原始信息完好无损。
+
+- [**elons-job**](https://github.com/bugkiwi/elons-job) `★ 1` - 本地优先的 Chrome 扩展：先用规则筛选 X 回复，再让 Jev 判断色情、性暗示和引流内容，并提供可恢复的隐藏占位符。
+  - 🎯 **核心决策**: 将 X 详情页回复编译为 Jev Noul 判断问题，由本地阈值、规则和重复模板信号共同决定是否隐藏。
+  - 💡 **收益亮点**: 结合本地规则、缓存、并发与成本保护以及 Fail-Open 设计；不需要 X 官方 API，隐藏内容可以恢复。
 
 - [**jev-context**](https://github.com/zbush/jev-context) `★ 1` - 给 Codex 的代码搜索加一道筛子。先用 ripgrep 找候选，再只把 Jev 判为相关的片段送回来。
   - 🎯 **核心决策**: 逐段判断代码是否与问题相关，只返回 Yes 片段，并记录筛选前后的文本。
